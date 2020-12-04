@@ -192,6 +192,7 @@ footer {
 
 @media (max-width: 762px) {
 
+
     /* title section */
     h1 {
       font-size: 16px;
@@ -213,12 +214,18 @@ footer {
         font-size: 16px; 
         margin: 0.5%; 
     }
+
+    /* .features-card:hover {
+        transform: none;
+        text-decoration: none;
+        font-weight: normal;
+        background-color: #8f384ddd;
+        color: white;
+    } */
     
     /* testimonials section */
     #testimonials {
-        
         height: 230px;
-        
     }
 
     .testimonial-text {
@@ -231,10 +238,25 @@ footer {
 
     /* pricing section */
     .card-body {
-        font-size: 16px;
-        padding: 5px;
+        font-size: 13px;
+        padding: 3px;
     }
 
+    .pricing-column {
+        padding: 4% 3%;
+    }
+    
+    #pricing h1 {
+        font-size: 16px;
+    }
+
+    #pricing h4 {
+        font-size: 17px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
     /* footer */
    #footer p {
         font-size: 16px;
